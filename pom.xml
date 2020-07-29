@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.talaatharb</groupId>
+	<artifactId>ssh-automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ssh-automation</name>
+	<description>SSH automation tool</description>
+	<packaging>pom</packaging>
+
+	<properties>
+		<!-- language encoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<!-- JDK version -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<spring-boot.version>2.3.2.RELEASE</spring-boot.version>
+		<lombok.version>1.18.12</lombok.version>
+		<swagger.version>3.0.0</swagger.version>
+		<node.version>v14.6.0</node.version>
+	</properties>
+
+	<modules>
+		<module>ssh-automation-api</module>
+		<module>ssh-automation-dto</module>
+		<module>ssh-automation-ui</module>
+		<module>ssh-automation-desktop</module>
+	</modules>
+
+</project>
